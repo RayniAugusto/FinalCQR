@@ -25,4 +25,5 @@ Route::get('/', function () {
 // Página de "acerca de"
 Route::get('/acerca-de', 'AcercadeController@index');
 
+Route::get('/posts', 'PostController@index');
 ?>
